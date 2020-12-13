@@ -1,0 +1,59 @@
+body{
+background-image: url("images/rock.jpg");
+
+
+    
+}
+
+
+.caps{
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.bact{
+    position: absolute;
+    z-index: 1;
+    opacity: 0.8;
+    width: 50%;
+    height: auto;
+    margin-left: 70%;
+    margin-top: 60%;
+}
+.cap2{
+    margin-top: 5vh;
+    opacity: 0.9;
+    width: 200px;
+    height: 200px;
+
+    margin-right: 25px;
+
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h5{
+    font-size: 300px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: white;
+    font-family: Arial;
+    position: relative;
+
+
+}
+
+.cards{
+
+    position: relative;
+    margin-top: 350vh;
+    flex-wrap: nowrap;
+    height: 300px;
+    display: flex;
+    align-content: flex-start;
+    flex-direction: row;
+}
